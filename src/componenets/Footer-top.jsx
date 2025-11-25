@@ -2,9 +2,9 @@ import img from "../assets/img/dc-logo-bg.png";
 
 export default function FooterTop() {
   return (
-    <div className="footer-top">
-      <div className="container d-flex space-between">
-        <div className="d-flex gap-15">
+    <div className="footer-top pb-50 pt-50">
+      <div className="container d-flex space-between conteiner-list">
+        <div className="d-flex gap-15 list-footer">
           <div className="col">
             <ul>
               DC COMICS
@@ -98,8 +98,9 @@ export default function FooterTop() {
             </ul>
           </div>
         </div>
-
-        <img src={img} alt="" />
+        <div class="conteiner-img-footer">
+          <img class="img-footer-top" src={img} alt="" />
+        </div>
       </div>
     </div>
   );
