@@ -12,7 +12,8 @@ header {
 }
 
 header img {
-  width: 70px;
+  width: 80px;
+  margin-right: 20px;
 }
 
 ul {
@@ -72,6 +73,9 @@ footer li {
 .gap-15 {
   gap: 15px;
 }
+.wrap {
+  flex-wrap: wrap;
+}
 
 .footer-top {
   background-image: url(../src/assets/img/footer-bg.jpg);
@@ -79,4 +83,16 @@ footer li {
 }
 footer img {
   width: 300px;
+}
+
+@media (max-width: 650px) {
+  nav {
+    display: none;
+  }
+  footer img {
+    display: none;
+  }
+  .header-container {
+    justify-content: center;
+  }
 }

@@ -3,7 +3,7 @@ import NavHeader from "./NavHeader";
 export default function Header() {
   return (
     <header className="pd-10">
-      <div className="container d-flex space-between align-items-center">
+      <div className="header-container container d-flex space-between align-items-center">
         <LogoHeader />
         <NavHeader />
       </div>

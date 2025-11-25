@@ -1,7 +1,7 @@
 export default function () {
   return (
     <nav>
-      <ul className="d-flex gap-15">
+      <ul className="d-flex gap-15 wrap">
         <li>CHARACTERS</li>
         <li>COMICS</li>
         <li>MOVIES</li>
