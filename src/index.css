@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100vh;
-}
 header {
   height: 120px;
   padding: 20px;
