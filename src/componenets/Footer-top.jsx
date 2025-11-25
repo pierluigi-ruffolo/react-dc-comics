@@ -9,70 +9,72 @@ export default function FooterTop() {
             <ul>
               DC COMICS
               <li>
-                <a>characters</a>
+                <a href="#">characters</a>
               </li>
               <li>
-                <a>comics</a>
+                <a href="#">comics</a>
               </li>
               <li>
-                <a>Movies</a>
+                <a href="#">Movies</a>
               </li>
               <li>
-                <a>Tv</a>
+                <a href="#">Tv</a>
               </li>
               <li>
-                <a>Games</a>
+                <a href="#">Games</a>
               </li>
               <li>
-                <a>Videos</a>
+                <a href="#">Videos</a>
               </li>
               <li>
-                <a>News</a>
+                <a href="#">News</a>
               </li>
             </ul>
             <ul>
               SHOP
               <li>
-                <a>Shop DC</a>
+                <a href="#">Shop DC</a>
               </li>
-              <li>Shop Dc Collectibles</li>
+              <li>
+                <a href="#">Shop Dc Collectibles</a>
+              </li>
             </ul>
           </div>
           <div className="col">
             <ul>
               DC
               <li>
-                <a>Terms Of use</a>
+                <a href="#">Terms Of use</a>
               </li>
               <li>
-                <a>Privacy policy (new)</a>
+                <a href="#">Privacy policy (new)</a>
               </li>
               <li>
-                <a>ad choices</a>
+                <a href="#">ad choices</a>
               </li>
               <li>
-                <a>advertisting</a>
+                <a href="#">advertisting</a>
               </li>
               <li>
-                <a>jobs</a>
+                <a href="#">jobs</a>
               </li>
               <li>
-                <a>sudscriptions</a>
+                <a href="#">sudscriptions</a>
               </li>
               <li>
-                <a>talent workshops</a>
+                <a href="#">talent workshops</a>
               </li>
               <li>
-                <a>CPSC certificates</a>
+                <a href="#">CPSC certificates</a>
               </li>
               <li>
-                <a>Ratings</a>
+                <a href="#">Ratings</a>
               </li>
               <li>
-                <a>Shop help</a>
+                <a href="#">Shop help</a>
               </li>
               <li>
-                <a>Contact Us</a>
+                <a href="#">Contact Us</a>
               </li>
             </ul>
             <ul></ul>
@@ -81,25 +83,25 @@ export default function FooterTop() {
             <ul>
               SITES
               <li>
-                <a>DC</a>
+                <a href="#">DC</a>
               </li>
               <li>
-                <a>MAD magazine</a>
+                <a href="#">MAD magazine</a>
               </li>
               <li>
-                <a>DC kids</a>
+                <a href="#">DC kids</a>
               </li>
               <li>
-                <a>DC universe</a>
+                <a href="#">DC universe</a>
               </li>
               <li>
-                <a>Dc power visa</a>
+                <a href="#">Dc power visa</a>
               </li>
             </ul>
           </div>
         </div>
-        <div class="conteiner-img-footer">
-          <img class="img-footer-top" src={img} alt="" />
+        <div className="conteiner-img-footer">
+          <img className="img-footer-top" src={img} alt="" />
         </div>
       </div>
     </div>

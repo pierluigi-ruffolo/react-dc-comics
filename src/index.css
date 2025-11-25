@@ -6,11 +6,21 @@
 img {
   max-width: 100%;
 }
-
+html {
+  height: 100vh;
+}
 header {
   height: 100px;
 }
-
+a {
+  text-decoration: none;
+}
+header a {
+  color: black;
+}
+footer a {
+  color: gray;
+}
 header img {
   width: 80px;
   margin-right: 20px;
