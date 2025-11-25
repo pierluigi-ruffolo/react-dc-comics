@@ -12,7 +12,7 @@ export default function Main() {
         </div>
       </div>
       <div class="bg-blue pt-50 pb-50">
-        <div className="container d-flex">
+        <div className="container d-flex wrap">
           <div className="col-main d-flex align-items-center">
             <img src={ImgByComics} alt="" className="mr-10" />
             <p className="color-white">DIGITAL COMICS</p>

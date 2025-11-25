@@ -8,9 +8,9 @@ export default function FooterBottom() {
   return (
     <div className="bg-grey footer-bottom">
       <div className="container d-flex pt-20 pb-20 space-between">
-        <button className="btn-footer ">SIGN-UP-NOW</button>
-        <div className="d-flex gap-15">
-          <p>FOLLOW US</p>
+        <button className="btn-footer">SIGN-UP-NOW</button>
+        <div className="d-flex gap-15 width-40 align-items-center">
+          <p class="cl-blue">FOLLOW US</p>
 
           <img src={ImgFacebook} alt="" />
           <img src={ImgTwitter} alt="" />

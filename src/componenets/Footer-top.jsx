@@ -2,7 +2,7 @@ import img from "../assets/img/dc-logo-bg.png";
 
 export default function FooterTop() {
   return (
-    <div className="footer-top pb-50 pt-50">
+    <div className="footer-top pb-30 pt-30">
       <div className="container d-flex space-between conteiner-list">
         <div className="d-flex gap-15 list-footer">
           <div className="col">
