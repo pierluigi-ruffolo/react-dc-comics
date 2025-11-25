@@ -53,6 +53,9 @@ footer li {
 .mt-40 {
   margin-top: 40px;
 }
+.mr-10 {
+  margin-right: 10px;
+}
 .pd-10 {
   padding: 10px;
 }
@@ -77,7 +80,9 @@ footer li {
 .bg-grey {
   background-color: rgba(48, 48, 48);
 }
-
+.bg-blue {
+  background-color: rgba(2, 130, 249);
+}
 /* layout */
 
 .container {
@@ -104,10 +109,13 @@ footer li {
   background-image: url(../src/assets/img/footer-bg.jpg);
   background-position: center;
 }
-.aaaa {
-  position: relative;
+.col-main {
+  width: 25%;
 }
 
+main img {
+  width: 50px;
+}
 .list-footer {
   width: 50%;
 }
