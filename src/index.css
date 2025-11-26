@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 header {
   height: 120px;
   padding: 20px;
@@ -33,7 +35,6 @@ footer ul {
   margin-top: 20px;
   color: white;
   font-size: 1.2rem;
-  font-family: Arial, Helvetica, sans-serif;
 }
 footer li {
   margin-top: 5px;
@@ -133,8 +134,7 @@ main img {
 }
 .img-footer-top {
   position: absolute;
-  top: -50px;
-  width: 500px;
+  top: -93px;
   right: 0;
 }
 .footer-bottom {
@@ -148,8 +148,14 @@ main img {
   border: 2px solid rgba(25, 89, 148);
   color: white;
 }
+.hero {
+  min-height: 400px;
+  background-image: url(../src/assets/img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
   nav {
     display: none;
   }

@@ -10,7 +10,7 @@ export default function FooterBottom() {
       <div className="container d-flex pt-50 pb-50 space-between">
         <button className="btn-footer">SIGN-UP-NOW</button>
         <div className="d-flex gap-15 width-40 align-items-center">
-          <p class="cl-blue">FOLLOW US</p>
+          <p className="cl-blue">FOLLOW US</p>
 
           <img src={ImgFacebook} alt="" />
           <img src={ImgTwitter} alt="" />

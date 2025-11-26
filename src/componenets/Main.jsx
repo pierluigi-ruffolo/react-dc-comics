@@ -6,12 +6,13 @@ import ImgPower from "../assets/img/buy-dc-power-visa.svg";
 export default function Main() {
   return (
     <main>
+      <div className="hero"></div>
       <div className="bg-black pt-50 pb-50">
         <div className="container">
           <h2 className="color-white">Content goes here</h2>
         </div>
       </div>
-      <div class="bg-blue pt-50 pb-50">
+      <div className="bg-blue pt-50 pb-50">
         <div className="container d-flex wrap">
           <div className="col-main d-flex align-items-center">
             <img src={ImgByComics} alt="" className="mr-10" />
