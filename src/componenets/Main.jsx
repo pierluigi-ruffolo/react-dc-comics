@@ -7,9 +7,10 @@ export default function Main() {
   return (
     <main>
       <div className="hero"></div>
-      <div className="pt-50 pb-50 bg-grey">
+      <div className="pt-50 pb-20 bg-grey">
         <div className="container">
           <CardMain />
+          <button className="btn-main">LOAD MORE</button>
         </div>
       </div>
       <div className="bg-blue pt-50 pb-50">
