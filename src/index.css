@@ -178,8 +178,12 @@ main img {
   color: white;
   border: none;
 }
+
 .active {
   border-bottom: 1px solid black;
+}
+.link-nav:hover {
+  border-bottom: 1px solid red;
 }
 
 @media (max-width: 750px) {

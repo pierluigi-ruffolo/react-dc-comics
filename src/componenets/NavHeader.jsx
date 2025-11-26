@@ -17,7 +17,9 @@ export default function NavHeader() {
       <ul className="d-flex gap-15 wrap">
         {menuItemsWithLinks.map((obj) => (
           <li className={obj.state ? "active" : ""} key={obj.id}>
-            <a href={obj.link}>{obj.name}</a>
+            <a className="link-nav" href={obj.link}>
+              {obj.name}
+            </a>
           </li>
         ))}
       </ul>
