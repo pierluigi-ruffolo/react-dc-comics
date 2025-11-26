@@ -178,6 +178,9 @@ main img {
   color: white;
   border: none;
 }
+.active {
+  border-bottom: 1px solid black;
+}
 
 @media (max-width: 750px) {
   nav {
