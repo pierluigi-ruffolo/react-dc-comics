@@ -1,7 +1,7 @@
 import { arrey } from "./ArrayMain";
 import Card from "./Card";
 import comics from "./comics";
-
+import Btn from "./btn";
 /* import CardMain from "./CardMain"; */
 export default function Main() {
   return (
@@ -14,7 +14,7 @@ export default function Main() {
               <Card key={obj.id} series={obj.series} thumb={obj.thumb} />
             ))}
           </div>
-          <button className="btn-main">LOAD MORE</button>
+          <Btn title="LOAD MORE" />
         </div>
       </div>
       <div className="bg-blue pt-50 pb-50">
