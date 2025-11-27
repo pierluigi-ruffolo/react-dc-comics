@@ -1,15 +1,19 @@
 import { arrey } from "./ArrayMain";
-import CardMain from "./CardMain";
+import Card from "./Card";
+import comics from "./comics";
 
 /* import CardMain from "./CardMain"; */
 export default function Main() {
-  console.log(arrey);
   return (
     <main>
       <div className="hero"></div>
       <div className="pt-50 pb-20 bg-grey">
         <div className="container">
-          <CardMain />
+          <div className="d-flex  wrap gap-15">
+            {comics.map((obj) => (
+              <Card key={obj.id} series={obj.series} thumb={obj.thumb} />
+            ))}
+          </div>
           <button className="btn-main">LOAD MORE</button>
         </div>
       </div>
