@@ -139,7 +139,9 @@ footer li {
 .col-main-footer {
   width: 20%;
 }
-
+.border {
+  border: 2px solid red;
+}
 main img {
   width: 50px;
 }

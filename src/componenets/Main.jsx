@@ -13,7 +13,12 @@ export default function Main() {
           <Badge title="CURRENT SERIESE" />
           <div className="d-flex  wrap gap-15">
             {comics.map((obj) => (
-              <Card key={obj.id} series={obj.series} thumb={obj.thumb} />
+              <Card
+                key={obj.id}
+                series={obj.series}
+                thumb={obj.thumb}
+                type={obj.type === "comic book" ? "border" : ""}
+              />
             ))}
           </div>
           <Btn title="LOAD MORE" />
