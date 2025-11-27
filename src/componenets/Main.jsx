@@ -1,7 +1,7 @@
-import { arrey } from "./ArrayMain";
+import { array } from "./ArrayMain";
 import Card from "./Card";
 import comics from "./comics";
-import Btn from "./btn";
+import Btn from "./Btn";
 import Badge from "./Badge";
 /* import CardMain from "./CardMain"; */
 export default function Main() {
@@ -26,7 +26,7 @@ export default function Main() {
       </div>
       <div className="bg-blue pt-50 pb-50">
         <div className="container d-flex wrap">
-          {arrey.map((element) => (
+          {array.map((element) => (
             <div
               className="col-main-footer d-flex align-items-center"
               key={element.id}

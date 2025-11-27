@@ -4,7 +4,7 @@ import ImgShop from "../assets/img/buy-comics-shop-locator.png";
 import ImgSudscriptions from "../assets/img/buy-comics-subscriptions.png";
 import ImgPower from "../assets/img/buy-dc-power-visa.svg";
 
-const arrey = [
+const array = [
   {
     id: 1,
     name: "digital comics",
@@ -32,4 +32,4 @@ const arrey = [
   },
 ];
 
-export { arrey };
+export { array };
