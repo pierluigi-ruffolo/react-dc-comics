@@ -2,13 +2,15 @@ import { arrey } from "./ArrayMain";
 import Card from "./Card";
 import comics from "./comics";
 import Btn from "./btn";
+import Badge from "./Badge";
 /* import CardMain from "./CardMain"; */
 export default function Main() {
   return (
     <main>
       <div className="hero"></div>
-      <div className="pt-50 pb-20 bg-grey">
+      <div className="pt-50 pb-20 bg-grey positon-relative">
         <div className="container">
+          <Badge title="CURRENT SERIESE" />
           <div className="d-flex  wrap gap-15">
             {comics.map((obj) => (
               <Card key={obj.id} series={obj.series} thumb={obj.thumb} />

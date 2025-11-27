@@ -42,6 +42,10 @@ footer li {
 }
 
 /* utilitis */
+.positon-relative {
+  position: relative;
+}
+
 .cl-blue {
   color: rgba(25, 89, 148);
 }
@@ -179,7 +183,15 @@ main img {
   border: none;
   margin-top: 10px;
 }
-
+.Badge {
+  display: block;
+  padding: 10px 20px;
+  position: absolute;
+  top: -20px;
+  background-color: rgba(2, 130, 249);
+  padding: 10px 20px;
+  color: white;
+}
 .active {
   border-bottom: 1px solid black;
 }
