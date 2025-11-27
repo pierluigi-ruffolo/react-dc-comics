@@ -1,6 +1,6 @@
-import Header from "./componenets/Header";
-import Main from "./componenets/Main";
-import Footer from "./componenets/Footer";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
